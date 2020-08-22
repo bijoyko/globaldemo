@@ -1,12 +1,12 @@
 {
-  "name": "IPC Kalyan: Bible Quiz",
-  "description": "Quiz Program",
+  "name": "globaldemo",
+  "description": "Demo links",
   "keywords": [
-    "bible",
-    "quiz",
-    "ipc",
-    "kalyan"
+    "Global",
+    "Parts",
+    "Tracking",
+    "POC"
   ],
-  "website": "https://github.com/bijoyko/GinFramework/ipckalyanbquiz",
-  "repository": "https://github.com/bijoyko/GinFramework/ipckalyanbquiz"
+  "website": "https://github.com/bijoyko/globaldemo",
+  "repository": "https://github.com/bijoyko/globaldemo"
 }

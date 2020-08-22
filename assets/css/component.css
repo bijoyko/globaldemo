@@ -107,6 +107,9 @@
 	overflow-x: hidden;
 	position: relative;
 	left: 0;
+	background: url('/assets/img/1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .cbp-spmenu-push-toright {
