@@ -1,9 +1,6 @@
 package main
 
 import (
-	"log"
-	"os"
-
 	"github.com/bijoyko/globaldemo/controller"
 	"github.com/bijoyko/globaldemo/driver"
 	"github.com/gin-contrib/sessions"
@@ -14,10 +11,10 @@ import (
 )
 
 func main() {
-	port := os.Getenv("PORT")
-	if port == "" {
-		log.Fatal("$PORT must be set")
-	}
+	// port := os.Getenv("PORT")
+	// if port == "" {
+	// 	log.Fatal("$PORT must be set")
+	// }
 	router := gin.Default()
 	router.Use(gin.Logger())
 	router.Static("/assets", "./assets")
@@ -35,5 +32,6 @@ func main() {
 	router.GET("/admin-demo", controller.LoadAdmin)
 	router.POST("/adminlogin", controller.VerifyAdmin)
 	router.POST("/updatequestions", controller.UpdateLinks)
-	router.Run(":" + port)
+	// router.Run(":" + port)
+	router.Run(":8080")
 }

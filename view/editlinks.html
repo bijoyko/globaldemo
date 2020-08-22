@@ -22,7 +22,8 @@
         <meta name="theme-color" content="#ffffff">
     </head>
     <body>
-        <h1 style = "font-size: 20px; padding-left: 2%;"></h1>
+        <h1 style = "font-size: 20px; padding-left: 2%;">Once you enter this page the database gets dropped automatically.</h1>
+        <h2 style = "font-size: 19px; padding-left: 2%;">Please make sure you press submit button even if you have made no changes</h1>
         <div class="container-fluid" style = "padding-left: 2%; padding-top: 2%; border-bottom-left-radius: 1%; background-blend-mode: darken;">
       <form action="/updatequestions" method="post">
                 <fieldset>
@@ -45,6 +46,7 @@
                     Name of Button5: <input type="text" name="Btn5" size="50" value={{.Btn5}}><br><br>
                     Link of Button5: <input type="text" name="Link5" size="50" value={{.Link5}}><br><br>
                 </fieldset>
+                <br>&nbsp;
                 <input type="submit" name="Submit" value="submit";>
             </form>
     </div>
